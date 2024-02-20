@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e imagem de fundo</title>
+
+    <style>
+
+        h1 {
+            /* background-image: url('arquivos/yoshi.png'); */
+
+            /* repeat-x, repeat-y, no-repeat, repeat */
+            background-repeat: repeat-x;
+
+            /* scrool, fixed */
+            background-attachment: scroll;
+
+            /* 
+            primeiro valor: left, center, right 
+            segundo valor: top, center, bottom
+            */
+            background-position: center center;
+        }
+
+        .fundo {
+            background: blue url(arquivos/yoshi.png) repeat-x scroll center;
+        }
+
+    </style>
+
+</head>
+
+<body class="fundo">
+
+    <h1>Conteúdo de título 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa natus maxime fuga cupiditate molestiae a obcaecati magni odio tempora et, voluptates distinctio similique error dolorem, laudantium numquam repellat vero id!</p>
+
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ad voluptate harum, aperiam praesentium eos exercitationem earum esse corrupti aspernatur voluptatum fuga commodi odio quas quia voluptatem debitis! Doloribus, error?</p>
+    
+</body>
+
+</html>
