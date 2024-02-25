@@ -8,21 +8,38 @@
 
     <style>
 
+        #principal {
+            border: 5px solid red;
+            background-color: green;
+        }
+
         .conteudo {
             background: blue;
             border: 1px solid grey;
             width: 200px;
             height: 200px;
-            float: left;
             margin: 10px;
+            float: right;
         }
         
-        .conteudo1 {
+        /*.conteudo1 {
             background: red;
             border: 1px solid grey;
             width: 150px;
             height: 150px;
             float: right;
+        }*/
+
+        .conteudo-zero {
+            background: red;
+            border: 1px solid grey;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        .clear {
+            clear: both;
         }
 
     </style>
@@ -31,16 +48,30 @@
 
 <body>
 
-    <div class="conteudo">
-        Conteúdo 1
-    </div>
+    <div id="principal">
 
-    <div class="conteudo">
-        Conteúdo 2
-    </div>
+        <div class="conteudo">
+            Conteúdo 1
+        </div>
+    
+        <div class="conteudo">
+            Conteúdo 2
+        </div>
+    
+        <div class="conteudo">
+            Conteúdo 3
+        </div>
 
-    <div class="conteudo">
-        Conteúdo 3
+        <p class="clear">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At, labore sequi omnis beatae neque officiis earum a temporibus numquam amet impedit rerum nulla laborum nesciunt iusto possimus, repellendus placeat voluptatum?
+            Unde ea vitae quam porro minus cum eveniet! Fugit, accusantium minus omnis fuga qui id. Explicabo hic earum odio exercitationem ad? Deserunt, sapiente eveniet! Officiis quis iure magnam quia quas.
+            Porro aut ab illo quidem, culpa laudantium, perferendis consequatur impedit nam repellat architecto reprehenderit vel? Nam officiis quam ullam! Quidem maiores aperiam illum asperiores, cumque excepturi molestiae explicabo exercitationem vitae?
+        </p>
+
+        <!--
+        <div class="clear">Olá</div>
+        -->
+
     </div>
 
 </body>
