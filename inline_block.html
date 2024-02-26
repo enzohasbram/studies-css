@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, block, inline_block</title>
+
+    <style>
+
+        .borda {
+            border: 1px solid red;
+            display: inline-block;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- 
+    Elemento block = ocupa todo o espaçamento da tela e fica abaixo do outro
+    Ex: <h1>, <p>, <table>
+    -->
+
+    <!--
+    Elemento inline = largura de acordo com seu conteúdo e um elemento na frente do outro
+    Ex: <a>, <span>, <img>
+    -->
+
+    <!--
+    Elemento inline-block = largura definida com seu conteúdo, mas os elementos ficam um abaixo do outro
+    Ex: display: inline-block
+    -->
+
+    <!-- 
+    <h1 class="borda">Bloco 1</h1>
+    <h1 class="borda">Bloco 2</h1> 
+    -->
+
+    <span class="borda">inline 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quod quibusdam quo ea natus culpa sunt, eos quos, eaque reprehenderit adipisci accusamus temporibus qui harum sequi. Nam, ex! Doloremque, recusandae.</span>
+    <span class="borda">inline 2</span>
+    
+
+</body>
+
+</html>
