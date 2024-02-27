@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (absolute, fixed)</title>
+
+    <style>
+
+        body {
+           background: #007fc7; 
+        }
+
+        #container {
+            background: #FFF;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        h1 {
+            position: static;
+        }
+
+        p{
+            width: 300px;
+        }
+
+        .fixed {
+            border: 1px solid red;
+            background: #f2f2f2;
+            margin: 0px;
+            position: fixed;
+            /*ele fica fixo em relação a janela do navegador*/
+            top: 0px;
+            right: 0px;
+        }
+
+        .absolute {
+            border: 1px solid red;
+            background: #f2f2f2;
+            /*posicionado em relação ao seu container*/
+            position: absolute;
+            top: 80px;
+            right: 20px;
+        }
+
+        /* Resumo:
+        Static = Padrão. Posicionado sempre de acordo com o fluxo padrão normal da página;
+
+        Relative = Baseado na posição inicial
+
+        Absolute = Posicionamento baseado em seu container
+
+        Fixed = Posicionamento baseado ao viewport (acompanha o movimento da página)
+        */
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container">
+        
+        <h1>Posicionamentos</h1>
+
+        <p>
+            P1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p>
+        
+        <p class="fixed"> 
+            P2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p>
+        
+        <p>
+            P3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p><p>
+            P3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p><p>
+            P3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p><p>
+            P3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p><p>
+            P3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p><p>
+            P3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p><p>
+            P3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p><p>
+            P3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eum corrupti eius dolor illum sapiente a ratione accusantium non explicabo, quod beatae? Dolorem, quod laborum. Quasi consectetur inventore deserunt iure!
+        </p>
+
+    </div>
+    
+</body>
+
+</html>
